@@ -1,0 +1,43 @@
+{
+  "name": "passport-express-mongodb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./dist",
+    "build": "babel ./src --out-dir ./dist --extensions \".ts\"",
+    "dev": "nodemon ./src/index.ts"
+  },
+  "keywords": [],
+  "author": "Angelo Zambrano <angelozam17@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/runtime": "^7.10.5",
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "mongoose": "^5.9.25",
+    "morgan": "^1.10.0",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "pug": "^3.0.0",
+    "yup": "^0.29.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5",
+    "@babel/plugin-transform-runtime": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-typescript": "^7.10.4",
+    "@types/bcryptjs": "^2.4.2",
+    "@types/connect-flash": "0.0.35",
+    "@types/express": "^4.17.7",
+    "@types/express-session": "^1.17.0",
+    "@types/morgan": "^1.9.1",
+    "@types/passport": "^1.0.4",
+    "@types/passport-local": "^1.0.33",
+    "dotenv": "^8.2.0",
+    "typescript": "^3.9.7"
+  }
+}

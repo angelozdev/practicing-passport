@@ -1,0 +1,6 @@
+extends ../layout/main
+block content
+   if user
+      h1 Hi, there! #{user.email}
+   else
+      h1 Welcome to Express

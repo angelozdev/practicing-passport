@@ -1,0 +1,10 @@
+extends ../layout/main
+block content
+   section
+      if error.length > 0
+         p= error[0]
+      form(action="/signup", method="POST")
+         h1 #{title}
+         input#email(type="email", name="email", placeholder="Enter your email...", autofocus)
+         input#password(type="password", name="password", placeholder="Enter your password...")
+         button(type="submit") Signup
