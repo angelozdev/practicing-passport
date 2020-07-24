@@ -3,9 +3,9 @@ Nodejs Login con Passport, Express
 
 ## Install
 + Mode developer
-`npm install`
-`npm run dev`
+  + `npm install`
+  + `npm run dev`
 + Mode production
-`npm install`
-`npm run build`
-`npm start`
+  + `npm install`
+  + `npm run build`
+  + `npm start`
